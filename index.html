@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mock Test</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<main class="container">
+<h1>Mock Test</h1>
+
+
+<section id="start-screen" class="card">
+<p>कुल प्रश्न: <span id="total-questions">0</span></p>
+<button id="start-btn" class="btn">Test शुरू करें</button>
+</section>
+
+
+<section id="quiz" class="card hidden">
+<div id="q-header">
+<span id="q-number">1</span>/<span id="q-total">1</span>
+<button id="quit-btn" class="btn small">Quit</button>
+</div>
+
+
+<h2 id="question-text">प्रश्न यहाँ आएगा</h2>
+
+
+<div id="options" class="options"></div>
+
+
+<div class="controls">
+<button id="next-btn" class="btn" disabled>Next</button>
+</div>
+</section>
+
+
+<section id="result" class="card hidden">
+<h2>Result</h2>
+<p>आपका स्कोर: <span id="score">0</span> / <span id="score-total">0</span></p>
+<button id="retry-btn" class="btn">फिर से करें</button>
+<button id="share-btn" class="btn">Share Link</button>
+</section>
+
+
+<footer class="muted">Share करने के लिए GitHub Pages का लिंक बनाकर दें।</footer>
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
